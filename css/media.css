@@ -1,0 +1,89 @@
+@media (max-width: 1230px) {
+   .nav-list {
+      display: none;
+   }
+   .nav-button {
+      display: block;
+   }
+   .nav.open .nav-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 40px;
+      font-size: 34px;
+      font-weight: 600;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: #fff;
+      padding: 46px 30px 46px 30px;
+   }
+   .nav-link {
+      color: #828282;
+   }
+   .nav-link:hover {
+      color: black;
+   }
+   .nav-button {
+      position: absolute;
+      z-index: 9;
+      top: 46px;
+      right: 30px;
+   }
+   .nav.open {
+      position: fixed;
+   }
+   .header-nav {
+      margin: 0px 0px 50px 0px;
+   }
+   .header-row {
+      flex-direction: column;
+      row-gap: 20px;
+   }
+   .header-content {
+      margin-top: 0;
+   }
+   .header-img {
+      text-align: center;
+   }
+}
+@media (max-width: 700px) {
+   .header-heading {
+      font-size: 34px;
+   }
+   .header-heading span {
+      font-size: 28px;
+   }
+   .services {
+      padding: 60px 0px;
+   }
+   .portfolio {
+      padding: 60px 0;
+   }
+   .portfolio-title {
+      margin: 0px 0px 50px 0px;
+   }
+   .project-img {
+      margin: 0px 0px 30px 0px;
+   }
+   .project + .project {
+      margin: 55px 0px 0px 0px;
+   }
+   .contacts {
+      padding: 60px 0;
+   }
+   .contacts-title {
+      margin: 0px 0px 20px 0px;
+   }
+   .contacts-content {
+      margin: 0px 0px 20px 0px;
+   }
+   .contacts-button {
+      margin: 0px 0px 70px 0px;
+   }
+   .contacts-social {
+      margin: 0px 0px 20px 0px;
+      column-gap: 50px;
+   }
+}
